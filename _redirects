@@ -1,0 +1,10 @@
+# Cloudflare Pages redirects. Same-host paths only.
+# Redirect www -> apex in the Cloudflare dashboard (Rules > Redirect Rules), not here.
+/index.html / 301
+/home / 301
+/about-us /about/ 301
+/contact-us /contact/ 301
+/service-area /service-areas/ 301
+/services/ceiling-mold-cost /services/ceiling-mold-removal-cost/ 301
+/ceiling-mold-removal-cost /services/ceiling-mold-removal-cost/ 301
+/blog /guides/ 301
